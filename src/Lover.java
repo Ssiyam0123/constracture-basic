@@ -23,4 +23,11 @@ class Lover {
     void introduce() {
         System.out.println("Hi! I'm " + name + " and I'm " + age + " years old.");
     }
+
+    void forNameShow (String name){
+        String herName = name;
+        // herName = "randi amgi";
+        this.name= herName;
+        System.out.println("name is :"+ herName);
+    }
 }

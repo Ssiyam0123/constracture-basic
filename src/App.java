@@ -9,5 +9,16 @@ public class App {
 
         Lover l3 = new Lover("Mehjabin", 21); // Name + age
         l3.introduce();
+
+
+        Lover example = new Lover();
+        example.name = "mia malkova";
+
+        example.forNameShow("adani");;
+
+
+        expo idk = new expo();
+        
+
     }
 }
